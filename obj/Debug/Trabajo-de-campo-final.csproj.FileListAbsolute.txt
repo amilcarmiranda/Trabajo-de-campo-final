@@ -1,0 +1,13 @@
+C:\Users\Amilcar\source\repos\Trabajo-de-campo-final\bin\Debug\Trabajo-de-campo-final.exe.config
+C:\Users\Amilcar\source\repos\Trabajo-de-campo-final\bin\Debug\Trabajo-de-campo-final.exe
+C:\Users\Amilcar\source\repos\Trabajo-de-campo-final\bin\Debug\Trabajo-de-campo-final.pdb
+C:\Users\Amilcar\source\repos\Trabajo-de-campo-final\obj\Debug\Trabajo-de-campo-final.csproj.AssemblyReference.cache
+C:\Users\Amilcar\source\repos\Trabajo-de-campo-final\obj\Debug\Trabajo-de-campo-final.csproj.SuggestedBindingRedirects.cache
+C:\Users\Amilcar\source\repos\Trabajo-de-campo-final\obj\Debug\Trabajo_de_campo_final.Properties.Resources.resources
+C:\Users\Amilcar\source\repos\Trabajo-de-campo-final\obj\Debug\Trabajo_de_campo_final.Vista.test.resources
+C:\Users\Amilcar\source\repos\Trabajo-de-campo-final\obj\Debug\Trabajo-de-campo-final.csproj.GenerateResource.cache
+C:\Users\Amilcar\source\repos\Trabajo-de-campo-final\obj\Debug\Trabajo-de-campo-final.csproj.CoreCompileInputs.cache
+C:\Users\Amilcar\source\repos\Trabajo-de-campo-final\obj\Debug\Trabajo-de-campo-final.exe
+C:\Users\Amilcar\source\repos\Trabajo-de-campo-final\obj\Debug\Trabajo-de-campo-final.pdb
+C:\Users\Amilcar\source\repos\Trabajo-de-campo-final\obj\Debug\Trabajo_de_campo_final.Vista.Inicio.resources
+C:\Users\Amilcar\source\repos\Trabajo-de-campo-final\obj\Debug\Trabajo_de_campo_final.Vista.Registro.resources
