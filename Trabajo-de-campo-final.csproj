@@ -51,15 +51,19 @@
     <Compile Include="Modelo\DTO\Persona.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vista\Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Vista\Inicio.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Vista\Inicio.Designer.cs">
       <DependentUpon>Inicio.cs</DependentUpon>
     </Compile>
-    <Compile Include="Vista\Registro.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="Vista\Registro.cs" />
     <Compile Include="Vista\Registro.Designer.cs">
       <DependentUpon>Registro.cs</DependentUpon>
     </Compile>
@@ -78,6 +82,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Vista\Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Vista\Inicio.resx">
       <DependentUpon>Inicio.cs</DependentUpon>
     </EmbeddedResource>
@@ -100,6 +107,8 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Modelo\Clases\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

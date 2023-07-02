@@ -15,6 +15,7 @@ namespace Trabajo_de_campo_final.Vista
         public Inicio()
         {
             InitializeComponent();
+            txtContrasena.UseSystemPasswordChar = true;
         }
         private void btnVistaTest_Click(object sender, EventArgs e)
         {
@@ -25,13 +26,31 @@ namespace Trabajo_de_campo_final.Vista
         private void btnRegistrarse_Click(object sender, EventArgs e)
         {
             var registro = new Registro();
-            registro.ShowDialog();
+            this.Hide();
+            registro.Show();
+           
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            var test = new test();
-            test.ShowDialog();
+            if (txtUsuario.Text == "amilcar" && txtContrasena.Text == "123456")
+            {
+                var menu = new Menu();
+                menu.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Usuario incorrecto");
+            }
+           
+
+
+        }
+
+        private void Inicio_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
