@@ -115,6 +115,7 @@
             this.Controls.Add(this.txtContrasena);
             this.Name = "Inicio";
             this.Text = "Sistema de Gestion de Personal Ocupacional";
+            this.Load += new System.EventHandler(this.Inicio_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
